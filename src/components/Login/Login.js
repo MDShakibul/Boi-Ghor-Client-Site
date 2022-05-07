@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { useSendPasswordResetEmail } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import auth from "../../firebase.init";
+import auth from "../../firebase.init.js";
 import "./Login.css";
 import SocialLogin from "./SocialLogin/SocialLogin";
 import { ToastContainer,toast  } from 'react-toastify';

@@ -24,12 +24,19 @@ const Header = () => {
       
     </Nav>
     <Nav>
-      <Nav.Link as={Link} to="/home">Home</Nav.Link>
-      <Nav.Link as={Link} to="/manage-book">Manage Book</Nav.Link>
-      <Nav.Link as={Link} to="/add-book">Add Book</Nav.Link>
-      <Nav.Link as={Link} to="/my-book">My Book</Nav.Link>
-      <Nav.Link as={Link} to="/blog">Blogs</Nav.Link>
-      <Nav.Link as={Link} to="/about">About</Nav.Link>
+        <Nav.Link as={Link} to="/home">Home</Nav.Link>
+        <Nav.Link as={Link} to="/blog">Blogs</Nav.Link>
+        <Nav.Link as={Link} to="/about">About</Nav.Link>
+
+      {
+        user && 
+        <>
+        <Nav.Link as={Link} to="/manage-book">Manage Book</Nav.Link>
+        <Nav.Link as={Link} to="/add-book">Add Book</Nav.Link>
+        <Nav.Link as={Link} to="/my-book">My Book</Nav.Link>
+          </>
+        
+        }
       {
         user ? <Nav.Link onClick={handelSignout}>Logout</Nav.Link> :<Nav.Link as={Link} to="/login">Login</Nav.Link>
       }
