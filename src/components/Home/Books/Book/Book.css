@@ -1,0 +1,9 @@
+.book-img img{
+    width: 100%;
+    height: 300px;
+}
+
+.btn-update{
+    border: none;
+    border-radius: 3px;
+}
