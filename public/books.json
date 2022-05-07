@@ -1,0 +1,119 @@
+[
+    {
+    
+        "img": "https://i.ibb.co/vV0gxRg/book-1.png",
+        "name": "Aguner Bela",
+        "description": "This book was written by Somores Mojumdar.It has 200 pages.",
+        "price": "100",
+        "quantity": "25",
+        "supplier": "abc publication"
+    },
+    {
+    
+        "img": "https://i.ibb.co/Fx5fzPR/book-2.png",
+        "name": "KalBela",
+        "description": "This book was written by Somores Mojumdar.It has 250 pages.",
+        "price": "300",
+        "quantity": "30",
+        "supplier": "abc publication"
+    },
+    {
+    
+        "img": "https://i.ibb.co/ZhFb8mW/book-3.png",
+        "name": "Deal",
+        "description": "This book was written by Humaun Ahmed.It has 350 pages.",
+        "price": "420",
+        "quantity": "15",
+        "supplier": "Bornomala publication"
+    },
+    {
+    
+        "img": "https://i.ibb.co/w788JZ0/book-4.png",
+        "name": "Noyti Uponnas",
+        "description": "This book was written by Sucitra Vittacarjo.It has 500 pages.",
+        "price": "145",
+        "quantity": "20",
+        "supplier": "Bornomala publication"
+    },
+    {
+    
+        "img": "https://i.ibb.co/NVyTgFR/book-5.png",
+        "name": "GolpoGUsccho",
+        "description": "This book was written by Robindhonath Tagor.It has 280 pages.",
+        "price": "250",
+        "quantity": "25",
+        "supplier": "Bornomala publication"
+    },
+    {
+    
+        "img": "https://i.ibb.co/64VgCrq/book-6.png",
+        "name": "GitBitan",
+        "description": "This book was written by Robindhonath Tagor.It has 230 pages.",
+        "price": "300",
+        "quantity": "30",
+        "supplier": "Bornomala publication"
+    },
+    {
+    
+        "img": "https://i.ibb.co/26krtVM/book-7.png",
+        "name": "MoyurBarir Rohosso",
+        "description": "This book was written by Sukanto Gongopaddhoy.It has 150 pages.",
+        "price": "300",
+        "quantity": "30",
+        "supplier": "abc publication"
+    },
+    {
+    
+        "img": "https://i.ibb.co/BjMWbTb/book-8.png",
+        "name": "Mohidadur Antidote",
+        "description": "This book was written by Dipannita Rai.It has 150 pages.",
+        "price": "300",
+        "quantity": "30",
+        "supplier": "abc publication"
+    },
+    {
+    
+        "img": "https://i.ibb.co/k96g7fz/book-9.png",
+        "name": "Badshar Namdar",
+        "description": "This book was written by Humaun Ahmed.It has 210 pages.",
+        "price": "150",
+        "quantity": "10",
+        "supplier": "Banjonborno publication"
+    },
+    {
+        
+        "img": "https://i.ibb.co/dr7VN20/book-10.png",
+        "name": "NurJahan",
+        "description": "This book was written by Emdadul Haq Milon.It has 350 pages.",
+        "price": "300",
+        "quantity": "30",
+        "supplier": "Banjonborno publication"
+    },
+    {
+        
+        "img": "https://i.ibb.co/r4xK4mK/book-11.png",
+        "name": "Preaoshy",
+        "description": "This book was written by Nemai Vottacarjo.It has 240 pages.",
+        "price": "300",
+        "quantity": "30",
+        "supplier": "Banjonborno publication"
+    },
+    {
+        
+        "img": "https://i.ibb.co/BrDMM1H/book-12.png",
+        "name": "Cader Pahar",
+        "description": "This book was written by BibhutiVuson Vondhopaddoy.It has 260 pages.",
+        "price": "300",
+        "quantity": "30",
+        "supplier": "Banjonborno publication"
+    },
+    {
+        
+        "img": "https://i.ibb.co/T8dHX6G/book-13.png",
+        "name": "Alfred Nobel",
+        "description": "This book was written by Alfr Nobel.It has 406 pages.",
+        "price": "300",
+        "quantity": "30",
+        "supplier": "Banjonborno publication"
+    }
+]

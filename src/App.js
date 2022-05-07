@@ -9,6 +9,7 @@ import ManageBook from './components/ManageBook/ManageBook';
 import MyBook from './components/MyBook/MyBook';
 import NotFound from './components/NotFound/NotFound';
 import Registration from './components/Registration/Registration';
+import Footer from './shared/Footer/Footer';
 import Header from './shared/Header/Header';
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
     <Route path='*' element={<NotFound/>}></Route>
     </Routes>
       
-      
+     <Footer></Footer> 
     </div>
   );
 }
