@@ -1,6 +1,7 @@
 import React from 'react';
 import useBooks from '../../../hooks/useBooks';
 import Book from './Book/Book';
+import { Link } from 'react-router-dom';
 
 const Books = () => {
     const[books] = useBooks();
@@ -25,7 +26,9 @@ const Books = () => {
                 </div>
             </div>
             <div className='d-flex justify-content-center mt-4'>
-                <button className='btn-update px-4 py-3 bg-primary text-white'>All Books</button>
+                <Link to="/manage-book">
+                    <button className='btn-update px-4 py-3 bg-primary text-white'>All Books</button>
+                </Link>
             </div>
         </div>
     );
