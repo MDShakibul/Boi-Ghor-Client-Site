@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import PopulerBook from './PopulerBook/PopulerBook';
+import React, { useEffect, useState }  from 'react';
+import UpcommingBook from './UpcommingBook/UpcommingBook';
 
-const PopulerBooks = () => {
+const UpcommingBooks = () => {
     const[books, setBooks] = useState([]);
     useEffect(() => {
         fetch('http://localhost:5000/books')
@@ -10,15 +10,15 @@ const PopulerBooks = () => {
     }, [])
     return (
         <div>
-            <h1 className='text-center mt-3 text-primary mb-3'>Populer Books</h1>
+            <h1 className='text-center mt-3 text-primary mb-3'>Upcomming Books</h1>
 
             <div className='container'>
                 <div className='row g-3'>
                 {
-                    books.slice(0, 3).map(book => <PopulerBook
+                    books.slice(3, 6).map(book => <UpcommingBook
                         key={book._id}
                         book={book}
-                    ></PopulerBook>)
+                    ></UpcommingBook>)
                 } 
                 </div>
             </div>
@@ -26,4 +26,4 @@ const PopulerBooks = () => {
     );
 };
 
-export default PopulerBooks;
+export default UpcommingBooks;
