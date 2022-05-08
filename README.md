@@ -1,6 +1,19 @@
 # Getting Started with Create React App
+# BoiGhor
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Description
+
+This project about a book dealer shop. Here can add quantity, supply products. Add my items ans show my items. Here we can register our account. that was email verified account. we can manage out books like add book, edit book and delete book.
+
+### Feature and Function
+
+* Log in and register system with email verified.
+* Update Book quantity.
+* Manage all Books.
+* Add My Books.
+* Own database and api.
 
 ## Available Scripts
 
