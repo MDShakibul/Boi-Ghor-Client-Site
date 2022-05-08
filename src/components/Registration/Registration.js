@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
+import Loading from '../../shared/Loading/Loading';
 
 const Registration = () => {
 
@@ -28,7 +29,7 @@ const navigate = useNavigate();
   }
 
   if (loading) {
-    return <p>Loading...</p>;
+    return <Loading></Loading>
   }
 
 const navigateLogin = () => {

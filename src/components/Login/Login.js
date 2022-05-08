@@ -7,6 +7,7 @@ import "./Login.css";
 import SocialLogin from "./SocialLogin/SocialLogin";
 import { ToastContainer,toast  } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Loading from "../../shared/Loading/Loading.js";
 
 
 const Login = () => {
@@ -39,7 +40,7 @@ const Login = () => {
   }
 
   if (loading || sending) {
-    return <p>Loading...</p>;
+    return <Loading></Loading>
   }
 
   let from = location.state?.from?.pathname || "/";
