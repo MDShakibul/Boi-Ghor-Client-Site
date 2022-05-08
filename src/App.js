@@ -5,8 +5,9 @@ import AddBook from './components/AddBook/AddBook';
 import Blog from './components/Blog/Blog';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
+import RequireAuth from './components/Login/RequireAuth/RequireAuth';
 import ManageBook from './components/ManageBook/ManageBook';
-import MyBook from './components/MyBook/MyBook';
+import MyBooks from './components/MyBooks/MyBooks';
 import NotFound from './components/NotFound/NotFound';
 import Registration from './components/Registration/Registration';
 import Footer from './shared/Footer/Footer';
@@ -19,14 +20,20 @@ function App() {
     <Routes>
     <Route path='/' element={<Home/>}></Route>
     <Route path='/home' element={<Home/>}></Route>
-    {/* <Route path='/checkout' element={
+     <Route path='/manage-book' element={
       <RequireAuth>
-      <Checkout/>
+      <ManageBook/>
       </RequireAuth>
-    }></Route> */}
-    <Route path='/manage-book' element={<ManageBook/>}></Route>
+    }></Route> 
+
+    <Route path='/manage-book' element={
+      <RequireAuth>
+      <ManageBook/>
+      </RequireAuth>
+    }></Route> 
+    {/* <Route path='/manage-book' element={<ManageBook/>}></Route> */}
     <Route path='/add-book' element={<AddBook/>}></Route>
-    <Route path='/my-book' element={<MyBook/>}></Route>
+    <Route path='/my-book' element={<MyBooks/>}></Route>
 
    <Route path='/blog' element={<Blog/>}></Route>
     <Route path='/about' element={<About/>}></Route>

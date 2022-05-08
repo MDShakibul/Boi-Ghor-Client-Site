@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Book.css'
 
 const Book = ({book}) => {
@@ -15,7 +16,10 @@ const Book = ({book}) => {
                     <p><strong>Quantity:</strong> {quantity}</p>
                     <p><strong>Suplier:</strong> {supplier}</p>
                     <div className='d-flex justify-content-center'>
-                    <button className='btn-update bg-success text-white px-3 py-2'>Update</button></div>
+                    <Link to="">
+                    <button className='btn-update bg-success text-white px-3 py-2'>Update</button>
+                    </Link>
+                    </div>
                 </div>
             </div>
     );

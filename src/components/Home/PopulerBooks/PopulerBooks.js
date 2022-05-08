@@ -1,13 +1,10 @@
-import React, { useEffect, useState } from 'react';
+
+import useBooks from '../../../hooks/useBooks';
 import PopulerBook from './PopulerBook/PopulerBook';
 
 const PopulerBooks = () => {
-    const[books, setBooks] = useState([]);
-    useEffect(() => {
-        fetch('http://localhost:5000/books')
-            .then(res => res.json())
-            .then(data => setBooks(data));
-    }, [])
+    const[books, setBooks] = useBooks();
+    
     return (
         <div>
             <h1 className='text-center mt-3 text-primary mb-3'>Populer Books</h1>

@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 # BoiGhor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [https://boi-ghor-cc8e7.web.app/](https://boi-ghor-cc8e7.web.app/).
 
 ### Description
 
